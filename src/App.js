@@ -13,7 +13,7 @@ export default function App() {
   const onSubmit = (data) => console.log(data);
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <h1>Formik</h1>
+      <h1>React Hook Form</h1>
       <label htmlFor="name">Name</label>
       <input
         type="text"
